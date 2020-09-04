@@ -18,6 +18,6 @@ func main() {
 	} else {
 		// 对 input 进行切片操作，去掉内容中最后一个字节 \n 。
 		input = input[:len(input)-1]
-		fmt.Printf("Hello, %s!\n", input)
+		fmt.Printf("Hello,  %s!\n", input)
 	}
 }
